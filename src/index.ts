@@ -15,7 +15,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
     const style = '@lin26/jupyterlab_tokopedia/index.css';
 
     manager.register({
-      name: 'jupyterlab_tokopedia',
+      name: 'JupyterLab Tokopedia',
       isLight: true,
       load: () => manager.loadCSS(style),
       unload: () => Promise.resolve(undefined)
